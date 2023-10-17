@@ -69,7 +69,7 @@ export default function Bars() {
     <BarChart
       dataset={dataset}
       xAxis={[{ scaleType: "band", dataKey: "month" }]}
-      series={[{ dataKey: "seoul", label: "35-", valueFormatter }]}
+      series={[{ dataKey: "seoul", label: "Earning", valueFormatter }]}
       {...chartSetting}
     />
   );

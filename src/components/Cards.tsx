@@ -12,8 +12,8 @@ import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import { RiFileList2Line } from "react-icons/ri";
 const Cards = () => {
   return (
-    <Grid container spacing={4}>
-      <Grid item xs={6} md={3}>
+    <Grid container xs={12} spacing={2}>
+      <Grid item lg={3} sm={6} xs={12}>
         <Card sx={{ display: "flex", padding: "20px ", width: "250px" }}>
           <Avatar
             sx={{ bgcolor: "#b8f3bb", height: "80px", width: "80px" }}
@@ -62,7 +62,7 @@ const Cards = () => {
           </Box>
         </Card>
       </Grid>
-      <Grid item xs={6} md={3}>
+      <Grid item lg={3} sm={6} xs={12}>
         <Card sx={{ display: "flex", padding: "20px ", width: "250px" }}>
           <Avatar
             sx={{ bgcolor: "#E7DBFF", height: "80px", width: "80px" }}
@@ -109,7 +109,7 @@ const Cards = () => {
           </Box>
         </Card>
       </Grid>
-      <Grid item xs={6} md={3}>
+      <Grid item lg={3} sm={6} xs={12}>
         <Card sx={{ display: "flex", padding: "20px ", width: "250px" }}>
           <Avatar
             sx={{ bgcolor: "#CCF2FF", height: "80px", width: "80px" }}
@@ -158,7 +158,7 @@ const Cards = () => {
           </Box>
         </Card>
       </Grid>
-      <Grid item xs={6} md={3}>
+      <Grid item lg={3} sm={6} xs={12}>
         <Card sx={{ display: "flex", padding: "20px ", width: "250px" }}>
           <Avatar
             sx={{ bgcolor: "#FEC5E8", height: "80px", width: "80px" }}

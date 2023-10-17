@@ -5,7 +5,7 @@ import Piechart from "./Piechart";
 const Charts = () => {
   return (
     <Grid container spacing={2}>
-      <Grid item xs={6} md={8}>
+      <Grid item sm={12} xs={6} md={7}>
         <Card sx={{ display: "flex", width: "100%", padding: "10px" }}>
           <Typography
             variant="h5"
@@ -21,7 +21,7 @@ const Charts = () => {
           <Bars />
         </Card>
       </Grid>
-      <Grid item xs={6} md={4}>
+      <Grid item sm={12} xs={6} md={5}>
         <Card
           sx={{
             display: "flex",

@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 const Dashboard = () => {
   return (
     <Grid container>
-      <Grid item xs={12}>
+      <Grid item xs={6} lg={12}>
         <Sidebar />
       </Grid>
     </Grid>
